@@ -1,5 +1,3 @@
-function Explore(){
-
-}
+function Explore() {}
 
 export default Explore;

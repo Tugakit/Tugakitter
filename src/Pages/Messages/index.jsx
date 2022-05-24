@@ -1,5 +1,3 @@
-function Messages(){
-
-}
+function Messages() {}
 
 export default Messages;

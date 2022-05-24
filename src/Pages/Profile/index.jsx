@@ -1,5 +1,3 @@
-function Profile(){
-
-}
+function Profile() {}
 
 export default Profile;

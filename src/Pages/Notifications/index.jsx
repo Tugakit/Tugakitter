@@ -1,5 +1,3 @@
-function Notifications(){
-
-}
+function Notifications() {}
 
 export default Notifications;
