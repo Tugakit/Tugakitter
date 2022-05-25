@@ -1,5 +1,6 @@
 import React, { Profiler } from "react";
 import { StrictMode } from "react";
+import './Style/header.css' //Je sais pas pourquoi mais en fait il faut importer le css du header pour le voir :/ 
 import { createRoot } from "react-dom/client";
 import Home from "./Pages/Home";
 import Messages from "./Pages/Messages";
