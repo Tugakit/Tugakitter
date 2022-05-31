@@ -14,6 +14,17 @@ const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 root.render(
   <Router>
+    <StrictMode>
+      <Header></Header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Explore" element={<Explore />} />
+        <Route path="/Communities" element={<Communities />} />
         <Route path="/Notifications" element={<Notifications />} />
+        <Route path="/Messages" element={<Messages />} />
+        <Route path="/Profile" element={<Profile />} />
+        <Route path="/Settings" element={<Settings />} />
+      </Routes>
+    </StrictMode>
   </Router>
 );

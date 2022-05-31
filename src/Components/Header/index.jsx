@@ -13,31 +13,26 @@ function Header() {
           <svg className="h-10 w-10 " viewBox="0 0 15 30" fill="currentColor">
             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
           </svg>
-      <Link to="/">
-        <div className="IconNav outline-1px" >
-           <svg className="h-10 w-10 " viewBox="0 0 15 30" fill="currentColor">
-              <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-          </svg>
           <p className="mb-3 flex ">Home</p>
         </div>
       </Link>
-      <Link to="/Explore">
-        <p  className="mb-3 ml-3 ">Explore </p>
-      </Link> 
+      <Link to="/Explore  ">
+        <p className="mb-3 ml-3 highlight">Explore </p>
+      </Link>
       <Link to="/Communities">
-        <p  className="mb-3 ml-3 ">Communities </p>
-      </Link> 
+        <p className="mb-3 ml-3 highlight">Communities </p>
+      </Link>
       <Link to="/Notifications">
-        <p  className="mb-3 ml-3 ">Notifications </p>
+        <p className="mb-3 ml-3 highlight">Notifications </p>
       </Link>
       <Link to="/Messages">
-        <p  className="mb-3 ml-3 ">Messages </p>
-      </Link> 
+        <p className="mb-3 ml-3 highlight">Messages </p>
+      </Link>
       <Link to="/Profile">
-        <p  className="mb-3 ml-3 ">Profile </p>
+        <p className="mb-3 ml-3 highlight">Profile </p>
       </Link>
       <Link to="/Settings">
-        <p  className="mb-3 ml-3 ">Settings </p>
+        <p className="mb-3 ml-3 highlight">Settings </p>
       </Link>
     </div>
   );
