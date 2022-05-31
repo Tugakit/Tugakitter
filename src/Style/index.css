@@ -2,20 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-     background-color: #000;
-     color: #fff;
-     text-decoration: none;
-}  
-:active, :focus {
-     background-color: rgb(8, 8, 8);
+* {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+:active,
+:focus {
+  background-color: rgb(8, 8, 8);
 }
 
-.highlight:hover{
-     background-color: rgb(8, 8, 8);
-     border-radius: 10px;
+.highlight:hover {
+  background-color: rgb(8, 8, 8);
+  border-radius: 10px;
 }
 
-.IconNav{
-     margin:auto
+.IconNav {
+  margin: auto;
 }
