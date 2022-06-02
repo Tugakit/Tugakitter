@@ -1,8 +1,8 @@
-import Card from '../../Components/Cards/index.jsx';
+import Card from '../../Components/Cards/Index';
 import React from 'react';
 
 function Home() {
-  <Card clasname="content-center max-w-fit "></Card>;
+  <Card classname="content-center max-w-fit "></Card>;
 }
 
 export default Home;
