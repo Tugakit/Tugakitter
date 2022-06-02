@@ -26,3 +26,14 @@
 .IconNav {
   margin: auto;
 }
+
+.username {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.handler {
+  font-size: 1.5rem;
+  font-weight: regular;
+  opacity: 0.7;
+}
