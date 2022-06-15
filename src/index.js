@@ -1,21 +1,23 @@
-import React, { Profiler } from "react";
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import Home from "./Pages/Home";
-import Messages from "./Pages/Messages";
-import Explore from "./Pages/Explore";
-import Profile from "./Pages/Profile";
-import Settings from "./Pages/Settings";
-import Header from "./Components/Header/";
-import "./Style/index.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React, { Profiler } from 'react';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import Home from './Pages/Home';
+import Messages from './Pages/Messages';
+import Explore from './Pages/Explore';
+import Profile from './Pages/Profile';
+import Notifications from './Pages/Notifications';
+import Settings from './Pages/Settings';
+import Communities from './Pages/Communities';
+import Header from './Components/Header/';
+import './Style/index.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 root.render(
   <Router>
-  <StrictMode>
-    <Header></Header>
+    <StrictMode>
+      <Header></Header>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Explore" element={<Explore />} />
