@@ -4,6 +4,9 @@ import { ReactComponent as HomeIcon } from '../../Assets/Accueil.svg';
 import { ReactComponent as CommunityIcon } from '../../Assets/Communautés.svg';
 import { ReactComponent as ExploreIcon } from '../../Assets/Explorer.svg';
 import { ReactComponent as NotificationsIcon } from '../../Assets/Notifications.svg';
+import { ReactComponent as MessagesIcon } from '../../Assets/Messages_Header.svg';
+import { ReactComponent as ProfileIcon } from '../../Assets/Profil.svg';
+import { ReactComponent as DotsIcon } from '../../Assets/Plus.svg';
 import '../../Assets/Communautés.svg';
 import { Link } from 'react-router-dom';
 
@@ -27,14 +30,16 @@ function Header() {
         <p className="Pnav highlight">Notifications </p>
       </Link>
       {/* TODO Ajouter une fonction pour invertir les couleurs du Logo quand on est sur Home. On peut faire avec ca: className="invert"*/}
-      {/* TODO  Implementer les dernières images */}
       <Link to="/Messages" className="flex place-content-left highlight">
+        <MessagesIcon fill="white" stroke="" width="26px" />
         <p className="Pnav highlight">Messages </p>
       </Link>
       <Link to="/Profile" className="flex place-content-left highlight">
+        <ProfileIcon fill="white" stroke="" width="26px" />
         <p className="Pnav highlight">Profile </p>
       </Link>
       <Link to="/Settings" className="flex place-content-left highlight">
+        <DotsIcon fill="white" stroke="" width="26px" />
         <p className="Pnav highlight">Plus </p>
       </Link>
       <Tweeter></Tweeter>
