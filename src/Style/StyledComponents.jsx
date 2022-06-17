@@ -17,7 +17,7 @@ const Button = styled.button`
     sans-serif;
 `;
 const Tweeter = () => {
-  return <Button>Suivez-moi!</Button>;
+  return <Button>Tweeter</Button>;
 };
 
 export default Tweeter;
