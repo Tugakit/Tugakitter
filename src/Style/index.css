@@ -7,8 +7,11 @@
   color: #fff;
   text-decoration: none;
   font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-
 }
+.container{
+  outline: 1px solid #ffffff
+}
+
 .handler {
   text-overflow: ellipsis;
   white-space: nowrap;
